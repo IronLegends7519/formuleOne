@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100vh;
+}
+#feuBiColor{
+  display: flex;
+  justify-content: center;
+}
+.feux{
+  background-color: black;
+}
+.lumière{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding:0 10px;
+  background-color: red;
+}
+.vert{
+  background-color: green;
+}
+
+/* .div1{
+
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-name: change;
+  animation-fill-mode: forwards;
+}
+.div2{
+
+  animation-delay: 1.2s;
+  animation-iteration-count: infinite;
+  animation-name: change;
+  animation-fill-mode: forwards;
+}
+.div3{
+
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: change;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change {
+  50%{background-color: red;}
+  100%{background-color: green;}
+} */
+
+/* .ball{
+  position: absolute;
+background-color: blue;
+top: 90%;
+left: 10%;
+animation-name: move;
+animation-duration: 4s;
+animation-delay: 0.5s;
+animation-fill-mode: forwards;
+transform: translate(-50%,50%);
+}
+@keyframes move {
+  50%{
+    top: 90%;
+    left: 10%;
+    background-color: blue;
+  }
+  100%{
+    top: 10%;
+    left: 50%;
+    background-color: red;
+  }
+} */
